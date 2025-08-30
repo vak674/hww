@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Стаття та гра</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>Моя стаття</h1>
+    <h2>Приклад форматів шрифту</h2>
+    <p>Це <b>тестовий</b> абзац із <i>різними шрифтами</i>.
+    Ще є шрифти: <strong>жирний</strong> та <em>курсив</em>.</p>
+
+    <h3>Цитата:</h3>
+    <blockquote>Цитата</blockquote>
+
+    <h3>Списки:</h3>
+    <p>Маркований:</p>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+
+    <p>Нумерований:</p>
+    <ol>
+      <li>Почати</li>
+      <li>Вивчати</li>
+      <li>Закріплювати</li>
+    </ol>
+
+    <h3>Таблиця:</h3>
+    <table border="3">
+      <tr>
+        <th>Ім'я</th>
+        <th>Вік</th>
+        <th>Місто</th>
+      </tr>
+      <tr>
+        <td>Анна</td>
+        <td>-666</td>
+        <td>Київ</td>
+      </tr>
+      <tr>
+        <td>Іван</td>
+        <td>228</td>
+        <td>Львів</td>
+      </tr>
+    </table>
+
+    <h3>Медіа:</h3>
+    <img src="https://picsum.photos/300/200" alt="Демонстраційне зображення">
+    <br><br>
+    <video controls width="306">
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    </video>
+    <br><br>
+    <audio controls>
+      <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+    </audio>
+    <br><br>
+    <iframe width="333" height="228" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+
+    <hr>
+    <h2>Міні-гра «Вгадай число»</h2>
+    <p>Число від 1 до 100. Можете спробувати відгадати</p>
+    <input type="number" id="guessInput" placeholder="Введіть число">
+    <button onclick="checkGuess()">Спробувати</button>
+    <p id="result"></p>
+
+    <br><a href="index.html">Головна</a>
+</body>
+</html>
